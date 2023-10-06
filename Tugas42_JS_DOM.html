@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+        <meta charset="utf-8" />
+        <title>Belajar Javascript - NIOMIC</title>
+ </head>
+ <body>
+    <p onmouseover="zoomin(this)" onmouseout="zoomout(this)"> Tugas42 ini akan berjalan pada saat Mouse Di dekatkan </p>
+    
+       <script type="text/javascript">
+        function zoomin(x) {
+            x.style.fontSize = "20pt";
+            x.style.color = "red";
+        }
+        function zoomout(x) {
+            x.style.fontSize = "12pt";
+            x.style.color = "black"
+        }
+       </script>
+ </body>
